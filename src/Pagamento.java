@@ -1,9 +1,11 @@
+import java.util.Calendar;
 
 public class Pagamento {
 	
 	private String nome;
 	private String cnpjPagador;
 	private double valor;
+	private Calendar data;
 	public String getNome() {
 		return nome;
 	}
@@ -23,5 +25,7 @@ public class Pagamento {
 		this.valor = valor;
 	}
 	
-	
+	public Calendar getData() {
+		return data;
+	}
 }
